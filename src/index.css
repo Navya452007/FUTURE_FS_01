@@ -125,4 +125,23 @@
   .project-image-zoom:hover {
     transform: scale(1.05);
   }
+
+  .sih-featured-card {
+    background: linear-gradient(135deg, hsl(var(--card)) 0%, hsl(217 91% 53% / 0.06) 100%);
+    border: 1px solid hsl(217 91% 53% / 0.2);
+  }
+
+  .sih-glow-border {
+    box-shadow: 0 0 40px -10px hsl(217 91% 53% / 0.15), inset 0 0 40px -10px hsl(217 91% 53% / 0.05);
+    border: 1px solid hsl(217 91% 53% / 0.12);
+  }
+
+  .sih-badge-pulse {
+    animation: sih-pulse 3s ease-in-out infinite;
+  }
+
+  @keyframes sih-pulse {
+    0%, 100% { box-shadow: 0 0 0 0 hsl(217 91% 53% / 0.2); }
+    50% { box-shadow: 0 0 16px 4px hsl(217 91% 53% / 0.15); }
+  }
 }
