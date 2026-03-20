@@ -5,7 +5,7 @@ const projects = [
     title: "Movie Ticket Booking System",
     description: "Desktop-based application for booking movie tickets with seat selection.",
     tech: ["Java", "Swing"],
-    image: "https://images.unsplash.com/photo-1581905764498-1d7d7f0d0c75?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=800&q=80",
   },
   {
     title: "Shopping Mall Website",
